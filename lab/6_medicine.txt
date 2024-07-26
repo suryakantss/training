@@ -1,0 +1,12 @@
+Create a class Medicine to represent a drug manufactured by a pharmaceutical company. 
+Provide a method displayLabel() to print Name and address of the company. 
+Create subclassses Tablet,Syrup and Ointment classes from the Medicine class. 
+Override the displayLabel() method in each of these classes to print additional 
+information suitable to the type of medicine. 
+For example, in case of tablets, it could be “store in a cool dry place”, 
+in case of ointments it could be “for external use only” etc.
+
+Create a class TestMedicine . Write main method to do the following:
+Declare an array of Medicine[3] and assign instances of above subclasses randomly.
+
+

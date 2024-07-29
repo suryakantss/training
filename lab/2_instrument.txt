@@ -1,0 +1,11 @@
+Create an abstract class Instrument which is having the abstract method play().
+Create three sub classes from Instrument which is Piano, Flute, Guitar.
+Override the play method in all three classes printing a message 
+
+“Piano is playing  tan tan tan tan  ”  for Piano class
+“Flute is playing  toot toot toot toot”  for Flute class
+“Guitar is playing  tin  tin  tin ”  for Guitar class 
+
+Assign different type of instrument to Instrument reference.
+Check for the polymorphic behavior of  play method.
+Use the instanceOf operator to print that object type.

@@ -1,0 +1,5 @@
+Number Guessing Game :
+The player has to guess a number given in between a range (1-10). If the guessed number is right, the player wins else loses. It also has the concept of limited attempts where the player has to guess the number within the limited #attempts(3), throw AttempExceededException if #attempts exceeded.
+
+
+

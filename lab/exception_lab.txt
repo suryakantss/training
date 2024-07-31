@@ -1,0 +1,30 @@
+Create a class  BankAccount having the members as given below:
+accNo	integer
+custName string
+accType string (indicates ‘Savings’ or ‘Current’)
+balance float
+
+Include the following methods in the BankAccount class:
+void deposit(float amt);
+void withdraw(float amt);
+float getBalance();
+ 	
+deposit(float amt) method allows you to credit an amount into the current balance. 
+If amount is negative, throw an exception NegativeAmountException to block the operation from 
+being performed.
+
+withdraw(float amt) method allows you to debit an amount from the current balance. 
+Please ensure a minimum balance of Rs. 1000/- in the account for savings account 
+and Rs. 5000/- for current account, else throw an exception InsufficientFundsException 
+and block the withdrawal operation. 
+
+Also throw an exception NegativeAmountException to block the operation from being 
+performed if the amt parameter passed to this method is negative.
+
+getBalance() method returns the current balance. If the current balance 
+is below the minimum required balance, then throw an exception LowBalanceException accordingly.
+
+Have constructor to which you will pass, accno, cust_name, acctype and initial balance. 
+And check whether the balance is less than 1000 or not in case of savings account and less than 5000 in case of a current account. If so, then raise a LowBalanceException. 
+In either case if the balance is negative then raise the NegativeAmountException exception accordingly.	     
+

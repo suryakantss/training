@@ -1,4 +1,0 @@
-Write a program which take source file and destination file as input as command line arguments. It copies the source file contents to destination file.  If source file does not exist, it should give appropriate message. If destination  file does not exist, it should be created. If it exists, program should ask that, "whether you want to overwrite?(Yes/No").
-On the basis of user choice, appropriate action should be taken.  
-
-

@@ -1,0 +1,35 @@
+The LocalDate represents a date in ISO format (yyyy-MM-dd) without time.
+
+LocalDate localDate = LocalDate.now();
+LocalDate.of(2015, 02, 20);
+ 
+
+LocalDate.parse("2015-02-20");
+
+LocalDate tomorrow = LocalDate.now().plusDays(1);
+
+DayOfWeek sunday = LocalDate.parse("2016-06-12").getDayOfWeek();
+ 
+int twelve = LocalDate.parse("2016-06-12").getDayOfMonth();
+
+boolean leapYear = LocalDate.now().isLeapYear();
+
+boolean notBefore = LocalDate.parse("2016-06-12")
+  .isBefore(LocalDate.parse("2016-06-11"));
+ 
+
+boolean isAfter = LocalDate.parse("2016-06-12").isAfter(LocalDate.parse("2016-06-11"));
+
+
+String localDateString = localDateTime.format(DateTimeFormatter.ISO_DATE);
+
+localDateTime.format(DateTimeFormatter.ofPattern("yyyy/MM/dd"));
+
+
+ZoneId id = ZoneId.of("Europe/Paris");
+ZonedDateTime zoned = ZonedDateTime.of(dateTime, id);
+assertEquals(id, ZoneId.from(zoned));
+
+
+Duration duration = Duration.ofSeconds(3, 5);
+Duration oneDay = Duration.between(today, yesterday);

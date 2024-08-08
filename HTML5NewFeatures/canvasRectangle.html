@@ -1,0 +1,13 @@
+<canvas id="c1" width="200" height="200" 
+    style="border:solid 1px #000000;"></canvas>
+
+<button onclick="draw_square();return true;">Red Square</button> 
+
+<script>
+function draw_square() {
+   var c1 = document.getElementById("c1");
+   var c1_context = c1.getContext("2d");
+   c1_context.fillStyle = "#f00";
+   c1_context.fillRect(50, 50, 100, 100);
+}
+</script>

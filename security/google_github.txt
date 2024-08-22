@@ -27,10 +27,4 @@ spring.security.oauth2.client.registration.github.client-secret=
 
 
 
-client id : 325744764079-crepilr7keioupim20tu1573408vaih9.apps.googleusercontent.com
-secret : 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
-
-
-
-
 

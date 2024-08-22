@@ -1,9 +1,0 @@
-spring.application.name=demo
-
-logging.file.name=${java.io.tmpdir}/${spring.application.name}.log
-logging.level.root=INFO
-
-
-private Logger logger = LoggerFactory.getLogger(MovieService.class);
-logger.info("in movie search..");
-

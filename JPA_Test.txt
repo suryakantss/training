@@ -1,0 +1,17 @@
+@DataJpaTest
+@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
+public class CustomerDAOTest {
+	@Autowired
+	private CustomerDAO customerDAO;
+	@Test
+	public void testfind() {
+		Customer c = new Customer();
+		c.setId(1);
+		c.setName("John");
+		c.setEmail("john@gmail.com");
+		customerDAO.save(c);
+		assertEquals(1, customerDAO.findAll().size());
+		System.out.println("Hello!!");
+	}
+	
+}

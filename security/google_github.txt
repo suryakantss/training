@@ -1,0 +1,36 @@
+
+Register Client :
+#Google
+https://console.cloud.google.com
+API & Service -> Credentials -> OAuth 2.0 Client IDS
+redirect url -> http://localhost:8080/login/oauth2/code/google
+
+#Git
+https://github.com/settings/apps
+Profile -> Settings -> Developer settings
+redirect url -> http://localhost:8080/login/oauth2/code/github
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-oauth2-client</artifactId>
+</dependency>
+
+
+
+spring.security.oauth2.client.registration.google.client-id=325744764079-0svjf7l1f7orboa9ccpilp5el5mesglm.apps.googleusercontent.com
+spring.security.oauth2.client.registration.google.client-secret=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
+
+
+spring.security.oauth2.client.registration.github.client-id=
+spring.security.oauth2.client.registration.github.client-secret=
+
+
+
+
+
+client id : 325744764079-crepilr7keioupim20tu1573408vaih9.apps.googleusercontent.com
+secret : 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
+
+
+
+
+

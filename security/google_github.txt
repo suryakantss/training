@@ -16,8 +16,8 @@ redirect url -> http://localhost:8080/login/oauth2/code/github
 
 
 
-spring.security.oauth2.client.registration.google.client-id=325744764079-0svjf7l1f7orboa9ccpilp5el5mesglm.apps.googleusercontent.com
-spring.security.oauth2.client.registration.google.client-secret=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
+spring.security.oauth2.client.registration.google.client-id=
+spring.security.oauth2.client.registration.google.client-secret=
 
 
 spring.security.oauth2.client.registration.github.client-id=
